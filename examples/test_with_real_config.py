@@ -12,7 +12,7 @@ BASE_URL = "http://127.0.0.1:8000"
 
 # Read the real simIIR configuration
 # Adjust this path if your simIIR is in a different location
-config_file = Path("../../simiir/example_sims/core_bm25_Sim4IA.xml")
+config_file = Path("../../simiir/example_sims/trec_bm25_simulation.xml")
 
 print(f"Reading configuration from: {config_file}")
 with open(config_file, "r") as f:
@@ -28,7 +28,7 @@ simulation_data = {
     # Override with subset of topics for faster testing
     "topics": ["1", "2", "5"],
     "metadata": {
-        "source": "core_bm25_Sim4IA.xml",
+        "source": "trec_bm25_simulation.xml",
         "dataset": "CORE",
         "search_model": "BM25",
         "task": "Task A"

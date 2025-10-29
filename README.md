@@ -97,7 +97,7 @@ poetry run python examples/test_with_real_config.py
 ```
 
 This will:
-- Read a real simIIR configuration from `../simiir/example_sims/core_bm25_Sim4IA.xml`
+- Read a real simIIR configuration from `../simiir/example_sims/trec_bm25_simulation.xml`
 - Create a simulation via the API
 - Show you commands to start and monitor it
 
@@ -274,9 +274,9 @@ docker-compose logs -f
 docker-compose down
 ```
 
-## Quick Test with Real SimIIR Config
+## Quick Test with SimIIR Config
 
-After starting the server, test with a real simIIR configuration:
+After starting the server, test with a simIIR configuration:
 
 ```bash
 # Create simulation from simIIR example
@@ -345,12 +345,11 @@ chmod +x start.sh
 
 ## Next Steps
 
-1. **Setup Guide**: Read [SETUP.md](SETUP.md) for detailed setup instructions
-2. **API Reference**: Check [API_REFERENCE.md](API_REFERENCE.md) for endpoint documentation
-3. **Architecture**: See [ARCHITECTURE.md](ARCHITECTURE.md) for technical details
-4. **Commands**: Browse [COMMANDS.md](COMMANDS.md) for command cheat sheet
-5. **Examples**: Explore examples in the `examples/` directory
-6. **Interactive Docs**: Visit http://localhost:8000/docs for Swagger UI
+1. **API Reference**: Check [API_REFERENCE.md](API_REFERENCE.md) for endpoint documentation
+2. **Architecture**: See [ARCHITECTURE.md](ARCHITECTURE.md) for technical details
+3. **Commands**: Browse [COMMANDS.md](COMMANDS.md) for command cheat sheet
+4. **Examples**: Explore examples in the `examples/` directory
+5. **Interactive Docs**: Visit http://localhost:8000/docs for Swagger UI
 
 ## Support
 
