@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "simiir-api"
+version = "0.1.0"
+description = "FastAPI wrapper for simIIR framework - Async simulation execution and management"
+authors = ["SimIIR Team"]
+readme = "README.md"
+packages = [{include = "simiir_api", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.109.0"
+uvicorn = {extras = ["standard"], version = "^0.27.0"}
+pydantic = "^2.6.0"
+pydantic-settings = "^2.1.0"
+sqlalchemy = "^2.0.25"
+aiosqlite = "^0.19.0"
+greenlet = "^3.0.0"
+python-multipart = "^0.0.6"
+httpx = "^0.27.0"
+lxml = "^5.1.0"
+aiofiles = "^23.2.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+pytest-asyncio = "^0.23.3"
+black = "^24.1.1"
+ruff = "^0.1.14"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+simiir-api = "simiir_api.main:run_server"
+

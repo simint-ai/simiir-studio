@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simulation>
+    <name>Example Simulation</name>
+    <description>An example simIIR simulation configuration</description>
+    
+    <!-- User Configuration -->
+    <users>
+        <user>user1</user>
+        <user>user2</user>
+        <user>user3</user>
+    </users>
+    
+    <!-- Topic Configuration -->
+    <topics>
+        <topic>303</topic>
+        <topic>307</topic>
+        <topic>310</topic>
+    </topics>
+    
+    <!-- Search Configuration -->
+    <search>
+        <engine>Whoosh</engine>
+        <index_path>../owlergpt/app/simiir-repo/example_data/index_CORE</index_path>
+    </search>
+    
+    <!-- Query Generator -->
+    <query_generator>
+        <class>SingleTermQueryGenerator</class>
+        <parameters>
+            <stopword_file>../owlergpt/app/simiir-repo/example_data/terms/stopwords.txt</stopword_file>
+        </parameters>
+    </query_generator>
+    
+    <!-- Output Configuration -->
+    <output>
+        <directory>./outputs</directory>
+        <save_queries>true</save_queries>
+        <save_interactions>true</save_interactions>
+    </output>
+    
+    <!-- Logger Configuration -->
+    <logger>
+        <type>standard</type>
+        <level>INFO</level>
+    </logger>
+</simulation>
