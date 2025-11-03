@@ -1,3 +1,23 @@
+# Making Simulation SimIIR: A Dashboard for User Simulation
+
+[![simiir.searchsim.org](images/simiir_studio.png)](https://simiir.searchsim.org)
+
+[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b?style=flat-square)](https://arxiv.org)
+[![Demo](https://img.shields.io/badge/Demo-traces.searchsim.org-blue?style=flat-square)](https://simiir.searchsim.org)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
+
+This repository contains the source code of SimIIR API wrapper for the paper **Making Simulation SimIIR: A Dashboard for User Simulation**.
+
+---
+
+## Abstract
+
+User simulation is a valuable methodology for evaluation in Information Retrieval. However, the steep learning curve and high setup time of existing frameworks often limit their use and make reproducing studies difficult. This paper introduces SimIIR Studio, a web-based workbench created to address these issues. The platform offers a visual, low-code interface for the SimIIR simulation engine, abstracting its underlying complexity. It allows researchers to replicate existing models, construct new simulations by combining components, and conduct comparative analyses within a unified environment. By reducing the implementation overhead, SimIIR Studio makes advanced user simulation more accessible and reproducible for the research community.
+
+**Keywords**: User simulation, Simulation platforms, Reproducibility
+
+---
+
 # SimIIR API - Quick Start Guide
 
 Get started with the SimIIR API in 5 minutes!
