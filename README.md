@@ -3,7 +3,7 @@
 [![simiir.searchsim.org](images/simiir_studio.png)](https://simiir.searchsim.org)
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b?style=flat-square)](https://arxiv.org)
-[![Demo](https://img.shields.io/badge/Demo-traces.searchsim.org-blue?style=flat-square)](https://simiir.searchsim.org)
+[![Demo](https://img.shields.io/badge/Demo-simiir.searchsim.org-blue?style=flat-square)](https://simiir.searchsim.org)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 
 This repository contains the source code of SimIIR API wrapper for the paper **Making Simulation SimIIR: A Dashboard for User Simulation**.
